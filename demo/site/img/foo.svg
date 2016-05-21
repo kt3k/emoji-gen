@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="124px" height="200px" viewBox="0 0 124 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2 (9961) - http://www.bohemiancoding.com/sketch -->
+    <title>nim</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="nim" sketch:type="MSLayerGroup">
+            <path d="M124,200 L0,200 C0,200 29.3675283,71.1866537 46.3280469,71.1866522 C31.5885156,62.8015137 24.8,52.2918822 24.8,37.5 C24.8,16.7893219 41.4550073,0 62,0 C82.5449927,0 99.2,16.7893219 99.2,37.5 C99.2,52.2918822 93.6551172,63.0236816 78.3632705,71.1866506 C96.3930469,71.1866522 124,200 124,200 Z" id="nim-back" fill="#083D71" sketch:type="MSShapeGroup"></path>
+            <path d="M102.176,185 L21.824,185 C21.824,185 41.664,80 62,80 C82.336,80 102.176,185 102.176,185 Z" id="nim-torso" fill="#0B6AC6" sketch:type="MSShapeGroup"></path>
+            <ellipse id="nim-head" fill="#0B6AC6" sketch:type="MSShapeGroup" cx="62" cy="40.5" rx="22.32" ry="22.5"></ellipse>
+        </g>
+    </g>
+</svg>

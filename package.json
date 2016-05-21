@@ -1,0 +1,34 @@
+{
+  "name": "emoji-gen",
+  "version": "0.1.0",
+  "description": "Create your own set of `emoji`s from your images.",
+  "main": "index.js",
+  "bin": {
+    "emoji-gen": "emoji-gen.js"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kt3k/emoji-gen.git"
+  },
+  "keywords": [
+    "emoji",
+    "css"
+  ],
+  "author": "Yoshiya Hinosawa <stibium121@gmail.com> (https://twitter.com/kt3k)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/emoji-gen/issues"
+  },
+  "homepage": "https://github.com/kt3k/emoji-gen#readme",
+  "dependencies": {
+    "colo": "^0.3.2",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "nyc": "^6.4.4",
+    "tape": "^4.5.1"
+  }
+}

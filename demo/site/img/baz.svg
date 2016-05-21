@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="164px" height="205px" viewBox="0 0 164 205" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>ankh</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="ankh" sketch:type="MSLayerGroup" fill="#32015C">
+            <path d="M73.046875,80 L90.4384766,80 C90.4384766,80 92.8828125,164.229492 102,200 C92.8828125,206.602539 70.9052734,206.753906 62,200 C70.9052734,163.803711 73.046875,80 73.046875,80 Z" id="Rectangle-11" sketch:type="MSShapeGroup"></path>
+            <path d="M0.311523438,90 C0.311523438,72.7744141 2,70 2,70 C2,70 22,80 82,80 C142,80 162,70 162,70 C162,70 163.796875,72.9223633 163.796875,90 C163.796875,107.077637 162,110 162,110 C162,110 142,100 82,100 C22,100 2,110 2,110 C2,110 0.311523438,107.225586 0.311523438,90 Z" id="Rectangle-10" sketch:type="MSShapeGroup"></path>
+            <path d="M82,87 C100.38496,80.3982913 118.76992,57.0773856 118.76992,36.7699197 C118.76992,16.4624538 102.307466,0 82,0 C61.6925341,0 45.2300803,16.4624538 45.2300803,36.7699197 C45.2300803,57.0773856 63.6150401,80.3982913 82,87 Z M82,70 C89.1797017,70 95,57.9116882 95,43 C95,28.0883118 89.1797017,16 82,16 C74.8202983,16 69,28.0883118 69,43 C69,57.9116882 74.8202983,70 82,70 Z" id="Oval-67" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
