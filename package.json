@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "description": "Create your own set of `emoji`s from your images.",
   "main": "index.js",
-  "bin": {
-    "emoji-gen": "emoji-gen.js"
-  },
+  "bin": "bin/emoji-gen.js",
   "scripts": {
     "test": "tape test.js"
   },
