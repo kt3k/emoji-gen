@@ -1,0 +1,56 @@
+.emoji {
+  background-size: 22px 22px;
+  color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+}
+
+.emoji-20 {
+  background-size: 20px 20px;
+  color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+.emoji-22 {
+  background-size: 22px 22px;
+  color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+}
+
+.emoji-25 {
+  background-size: 25px 25px;
+  color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+}
+
+.emoji-30 {
+  background-size: 30px 30px;
+  color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+}
+
+.emoji-bar {
+  background-image: url(../img/bar.svg);
+}
+
+.emoji-baz {
+  background-image: url(../img/baz.svg);
+}
+
+.emoji-foo {
+  background-image: url(../img/foo.svg);
+}

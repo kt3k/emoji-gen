@@ -2,10 +2,12 @@
   "name": "emoji-gen",
   "version": "0.1.0",
   "description": "Create your own set of `emoji`s from your images.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "bin": "bin/emoji-gen.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape 'test/**/*.js'",
+    "cov": "nyc --reporter=lcov npm test",
+    "codecov": "codecov"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,7 @@
     "mkdirp": "^0.5.1"
   },
   "devDependencies": {
+    "codecov": "^1.0.1",
     "nyc": "^6.4.4",
     "tape": "^4.5.1"
   }
