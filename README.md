@@ -1,6 +1,6 @@
 # emoji-gen v1.0.1 [![CircleCI](https://circleci.com/gh/kt3k/emoji-gen.svg?style=svg)](https://circleci.com/gh/kt3k/emoji-gen) [![codecov](https://codecov.io/gh/kt3k/emoji-gen/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/emoji-gen)
 
-> Create your own set of `emoji`s from your images.
+> Create your own set of 'emoji's from your images.
 
 # Features
 
