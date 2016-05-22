@@ -54,8 +54,9 @@ const main = argv => {
     process.exit(1)
   }
 
-  emojiGen(paths, {output, emojiClass, sizes, defaultSize}).then(exitCode => {
-    process.exit(exitCode)
+  emojiGen(paths, {output, emojiClass, sizes, defaultSize}).then(generatedPath => {
+    console.log(colo.green('Generated emoji css file at: ' + generatedPath))
+    process.exit(0)
   }).catch(err => {
     console.log(colo.red(err.stack))
     process.exit(1)

@@ -35,7 +35,7 @@ test('util.getAbsPathsFromGlobs returns a promise of globbed absolute paths', t 
       `${fixtureRoot}/site/img/baz.svg`,
       `${fixtureRoot}/site/img/foo.svg`,
       `${fixtureRoot}/site/css/emoji.css`
-    ])
+    ], 'It returns absolute paths')
     t.end()
   })
 
