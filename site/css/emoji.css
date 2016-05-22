@@ -1,4 +1,4 @@
-.emoji {
+.emj {
   background-size: 22px 22px;
   color: transparent;
   display: inline-block;
@@ -7,7 +7,7 @@
   height: 22px;
 }
 
-.emoji-20 {
+.emj-20 {
   background-size: 20px 20px;
   color: transparent;
   display: inline-block;
@@ -16,7 +16,7 @@
   height: 20px;
 }
 
-.emoji-22 {
+.emj-22 {
   background-size: 22px 22px;
   color: transparent;
   display: inline-block;
@@ -25,7 +25,7 @@
   height: 22px;
 }
 
-.emoji-25 {
+.emj-25 {
   background-size: 25px 25px;
   color: transparent;
   display: inline-block;
@@ -34,7 +34,7 @@
   height: 25px;
 }
 
-.emoji-30 {
+.emj-30 {
   background-size: 30px 30px;
   color: transparent;
   display: inline-block;
@@ -43,14 +43,30 @@
   height: 30px;
 }
 
-.emoji-bar {
-  background-image: url(../img/bar.svg);
+.emj-site {
+  background-image: url(../../demo/site);
 }
 
-.emoji-baz {
-  background-image: url(../img/baz.svg);
+.emj-css {
+  background-image: url(../../demo/site/css);
 }
 
-.emoji-foo {
-  background-image: url(../img/foo.svg);
+.emj-emoji {
+  background-image: url(../../demo/site/css/emoji.css);
+}
+
+.emj-img {
+  background-image: url(../../demo/site/img);
+}
+
+.emj-bar {
+  background-image: url(../../demo/site/img/bar.svg);
+}
+
+.emj-baz {
+  background-image: url(../../demo/site/img/baz.svg);
+}
+
+.emj-foo {
+  background-image: url(../../demo/site/img/foo.svg);
 }

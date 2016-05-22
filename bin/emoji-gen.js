@@ -54,7 +54,12 @@ const main = argv => {
     process.exit(1)
   }
 
-  process.exit(emojiGen(paths, {output, emojiClass, sizes, defaultSize}))
+  emojiGen(paths, {output, emojiClass, sizes, defaultSize}).then(exitCode => {
+    process.exit(exitCode)
+  }).catch(err => {
+    console.log(colo.red(err.stack))
+    process.exit(1)
+  })
 }
 
 main(argv)

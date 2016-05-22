@@ -23,7 +23,9 @@
   "homepage": "https://github.com/kt3k/emoji-gen#readme",
   "dependencies": {
     "colo": "^0.3.2",
-    "minimist": "^1.2.0"
+    "glob": "^7.0.3",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1"
   },
   "devDependencies": {
     "nyc": "^6.4.4",
