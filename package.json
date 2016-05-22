@@ -2,7 +2,7 @@
   "name": "emoji-gen",
   "version": "0.1.0",
   "description": "Create your own set of `emoji`s from your images.",
-  "main": "lib/index.js",
+  "main": "lib/emoji-gen.js",
   "bin": "bin/emoji-gen.js",
   "scripts": {
     "test": "tape 'test/**/*.js'",
@@ -32,6 +32,7 @@
   "devDependencies": {
     "codecov": "^1.0.1",
     "nyc": "^6.4.4",
+    "rimraf": "^2.5.2",
     "tape": "^4.5.1"
   }
 }

@@ -12,7 +12,7 @@ test('util.unique makes the array contents unique', t => {
 })
 
 test('util.globP returns a promise of globbed paths', t => {
-  util.globP('test/fixture/**/*.svg').then(paths => {
+  const promise = util.globP('test/fixture/**/*.svg').then(paths => {
     t.deepEqual(paths, [
       'test/fixture/site/img/bar.svg',
       'test/fixture/site/img/baz.svg',
@@ -21,10 +21,12 @@ test('util.globP returns a promise of globbed paths', t => {
 
     t.end()
   })
+
+  t.ok(promise instanceof Promise, 'It returns a promise.')
 })
 
 test('util.getAbsPathsFromGlobs returns a promise of globbed absolute paths', t => {
-  util.getAbsPathsFromGlobs([
+  const promise = util.getAbsPathsFromGlobs([
     'test/fixture/**/*.svg',
     'test/fixture/**/*.css'
   ]).then(paths => {
@@ -36,4 +38,6 @@ test('util.getAbsPathsFromGlobs returns a promise of globbed absolute paths', t 
     ])
     t.end()
   })
+
+  t.ok(promise instanceof Promise, 'It returns a promise.')
 })
