@@ -1,4 +1,4 @@
-# emoji-gen v0.1.0
+# emoji-gen v1.0.0
 
 > Create your own set of `emoji`s from your images.
 

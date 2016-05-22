@@ -1,6 +1,6 @@
 {
   "name": "emoji-gen",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Create your own set of `emoji`s from your images.",
   "main": "lib/emoji-gen.js",
   "bin": "bin/emoji-gen.js",
