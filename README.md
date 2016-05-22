@@ -1,7 +1,16 @@
 # emoji-gen v1.0.1 [![CircleCI](https://circleci.com/gh/kt3k/emoji-gen.svg?style=svg)](https://circleci.com/gh/kt3k/emoji-gen) [![codecov](https://codecov.io/gh/kt3k/emoji-gen/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/emoji-gen)
 
-
 > Create your own set of `emoji`s from your images.
+
+# Features
+
+- `emoji-gen` is command line tool written in node.js.
+- This creates stylesheet (`.css`) file from the command line.
+- You need to prepare your own images which you want to use as *emoji symbol* (like :dog: :mouse: :alien: )
+- With the generated css, you can use emoji in your markup files (`.html`) like `<i class="emoji emoji-mySymbol"></i>`.
+  - See below for details.
+  - See [demo][demo] for what it looks like.
+
 
 # Install
 
@@ -47,7 +56,7 @@ Hello, this is my emoji <i class="emoji emoji-foo"></i> !
 
 In the above `<i></i>` part is rendered like *emoji*!
 
-See the [demo](https://kt3k.github.io/emoji-gen/demo/)
+See the [demo][demo].
 
 The following classes are included in the generated css:
 
@@ -81,3 +90,5 @@ You can specify the following options in the command:
 # License
 
 MIT
+
+[demo]: https://kt3k.github.io/emoji-gen/demo/
