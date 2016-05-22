@@ -6,7 +6,8 @@
   "bin": "bin/emoji-gen.js",
   "scripts": {
     "test": "tape 'test/**/*.js'",
-    "cov": "nyc --reporter=lcov npm test"
+    "cov": "nyc --reporter=lcov npm test",
+    "codecov": "npm run cov && codecov"
   },
   "repository": {
     "type": "git",

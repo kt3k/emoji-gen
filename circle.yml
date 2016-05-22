@@ -3,4 +3,4 @@ machine:
     version: 4
 test:
   post:
-    - $(npm bin)/codecov
+    - npm run codecov
