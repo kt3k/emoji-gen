@@ -1,7 +1,6 @@
 const emojiGen = require('../')
 
 const test = require('tape')
-const rimraf = require('rimraf')
 
 const path = require('path')
 const fs = require('fs')
