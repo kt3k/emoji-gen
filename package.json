@@ -5,7 +5,7 @@
   "main": "lib/emoji-gen.js",
   "bin": "bin/emoji-gen.js",
   "scripts": {
-    "lint": "eslint bin lib test",
+    "lint": "standard",
     "test": "tape 'test/**/*.js'",
     "cov": "nyc --reporter=lcov npm test",
     "codecov": "npm run cov && codecov"
@@ -32,12 +32,8 @@
   },
   "devDependencies": {
     "codecov": "^1.0.1",
-    "eslint": "^3.1.0",
-    "eslint-config-souffle": "^4.0.0",
-    "eslint-config-standard": "^5.3.1",
-    "eslint-plugin-promise": "^1.1.0",
-    "eslint-plugin-standard": "^2.0.0",
     "nyc": "^7.0.0",
+    "standard": "^7.1.2",
     "tape": "^4.5.1"
   },
   "eslintConfig": {
