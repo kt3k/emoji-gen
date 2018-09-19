@@ -1,7 +1,8 @@
 # emoji-gen v1.0.3
+
 [![CircleCI](https://circleci.com/gh/kt3k/emoji-gen.svg?style=svg)](https://circleci.com/gh/kt3k/emoji-gen)
 [![codecov](https://codecov.io/gh/kt3k/emoji-gen/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/emoji-gen)
-[![bitHound Overall Score](https://www.bithound.io/github/kt3k/emoji-gen/badges/score.svg)](https://www.bithound.io/github/kt3k/emoji-gen) [![Greenkeeper badge](https://badges.greenkeeper.io/kt3k/emoji-gen.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/kt3k/emoji-gen.svg)](https://greenkeeper.io/)
 
 > Create your own set of 'emoji's from your images.
 
