@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/kt3k/emoji-gen#readme",
   "dependencies": {
-    "colo": "^0.3.2",
+    "colo": "^1.0.0",
     "glob": "^7.0.3",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1"
